@@ -1,0 +1,68 @@
+.plein {
+    background: red;
+}
+
+.vide {
+    background: none;
+}
+
+#matrice {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: max-content;
+    margin: 50px auto auto;
+}
+
+#matrice  * {
+    display: flex;
+    flex-direction: row;
+}
+
+.all {
+    margin: 20px;
+}
+
+.carre1, .carre2, .carre3, .carre4 {
+    height: 60px;
+    width: 60px;
+    border: solid 1px;
+}
+
+.rond {
+    height: 60px;
+    width: 60px;
+    border: solid 1px;
+    border-radius: 30px;
+}
+
+.losange {
+    height: 60px;
+    width: 60px;
+    border: solid 1px;
+    transform: rotate(45deg);
+}
+
+#boutton {
+    display: flex;
+    justify-content: center;
+}
+
+#remplir, #vider {
+    height: 40px;
+    width: 110px;
+    margin: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    outline-style: none;
+}
+
+#remplir {
+    background: red;
+    color: white;
+}
+
+#vider {
+    background: white;
+}
